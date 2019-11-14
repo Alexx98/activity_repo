@@ -3,15 +3,19 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    redirectTo: '/user',
-    pathMatch: 'full'
-  },
-  {
-    path: 'user',
-    component: AppComponent
-  }
+  // {
+  //   path: '',
+  //   redirectTo: '/user',
+  //   pathMatch: 'full'
+  // },
+  // {
+  //   path: 'user',
+  //   component: AppComponent
+  // }
+  // {
+  //   path: 'user/:id',
+  //   component: AppComponent
+  // }
 ];
 
 @NgModule({
